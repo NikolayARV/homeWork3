@@ -73,6 +73,16 @@ public class Main {
         int midle = (time1 + time2) / 2;
         System.out.println(time1 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 250 грамм и " + time2 + " дней, если каждый день будет худеть на 500 грамм. " + midle   + " дней потребуется в среднем, чтобы добиться результата.");
 
+        int Masha1 = 67760;
+        int Denis1 = 83690;
+        int Kristina1 = 76230;
+        double Masha2 = Masha1 * 1.1;
+        double Denis2 = Denis1 * 1.1;
+        double Kristina2 = Kristina1 * 1.1;
+        System.out.println("Маша теперь получает " + Masha2 + " рублей. Годовой доход вырос на " + (Masha2 % Masha1) * 12 + " рублей");
+        System.out.println("Денис теперь получает " + Denis2 + " рублей. Годовой доход вырос на " + (Denis2 % Denis1) * 12 + " рублей");
+        System.out.println("Кристина теперь получает " + Kristina2 + " рублей. Годовой доход вырос на " + (Kristina2 % Kristina1) * 12 + " рублей");
+
 
     }
 }
