@@ -37,7 +37,7 @@ public class Main {
         int class2 = 27;
         int class3 = 30;
         int papier = 480;
-        int papierPerSt = 480 / (class1 + class2 + class3);
+        int papierPerSt = papier / (class1 + class2 + class3);
         System.out.println("На каждого ученика рассчитано " + papierPerSt + "  листов бумаги");
 
         int power1min = 16 / 2;
@@ -61,7 +61,7 @@ public class Main {
         int milkWeight = 105;
         int iceWeight = 100;
         int eggWeight = 70;
-        int grWeight = bananWeight * 5 + milkWeight  * 2 + iceWeight * 2 + eggWeight * 4;
+        float grWeight = bananWeight * 5 + milkWeight  * 2 + iceWeight * 2 + eggWeight * 4;
         double kgWeight = grWeight / 1000;
         System.out.println("Вес завтрака  " + grWeight + " грамм или  " + kgWeight  + " кг.");
 
@@ -71,7 +71,7 @@ public class Main {
         int time1 = totalWeight / dayWeight1;
         int time2 = totalWeight / dayWeight2;
         int midle = (time1 + time2) / 2;
-        System.out.println(time1 + “ дней уйдёт на похудение, если спортсмен будет терять каждый день по 250 грамм и ” + time2 + “ дней, если каждый день будет худеть на 500 грамм. ” + midle   + “ дней потребуется в среднем, чтобы добиться результата.”);
+        System.out.println(time1 + " дней уйдёт на похудение, если спортсмен будет терять каждый день по 250 грамм и " + time2 + " дней, если каждый день будет худеть на 500 грамм. " + midle   + " дней потребуется в среднем, чтобы добиться результата.");
 
 
     }
